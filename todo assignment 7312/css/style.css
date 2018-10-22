@@ -1,0 +1,54 @@
+body{
+    background-image: url(todo.jpg);
+    background-size: cover;
+/*
+    height: 100vh;
+    width: 100%;
+*/
+    font-family: sans-serif;
+}
+
+
+.login .card{
+    background-color:rgba(0, 0, 0, 0.6) !important;
+    margin-top: 10px;
+    border-radius: 30px !important;
+    height: 450px;
+}
+
+.login label{
+    color: white;
+    font-size: 16px;
+}
+
+.login input{
+    color: white;
+    font-size: 16px;
+    margin-top: 15px !important;
+}
+
+.login button:hover{
+    width:150px;
+}
+
+.login .material-icons{
+    font-size: 25px;
+}
+
+.login .btn:hover{
+    size: 40px;
+}
+.heading{
+    margin-top: 10px;
+}
+.nameOfApp{
+    margin-left: 20px;
+}
+
+.login-heading {
+    border-top-left-radius: 29px;
+    border-top-right-radius: 29px;
+}
+table th, td{
+    border-radius: 0px;
+}

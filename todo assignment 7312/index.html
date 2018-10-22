@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Todos</title>
+    <!--Materilize CSS-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+    <!--Materilize JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <!--Materil Icons-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--CSS File-->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <link rel="shortcut icon" href="todo.jpg" type="image/x-icon">
+
+</head>
+
+<body>
+    <nav class="blue darken-4">
+        <div class="nav-wrapper">
+            <a href="#" class="brand-logo nameOfApp">ToDo List</a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="index.html">Create</a></li>
+                <li><a href="allTodos.html">All ToDos</a></li>
+<!--                <li><a href="edit.html">Edit</a></li>-->
+            </ul>
+        </div>
+    </nav>
+    <div class="row login">
+        <div class="col s12 l8 m8 offset-l2">
+            <div class="card blue darken-1 ">
+                <div class="card-action purple darken-4 white-text center-align login-heading">
+                    <h5>Add a new ToDo</h5>
+                </div>
+                <div class="card-content login">
+                    <div class="input-field">
+                        <i class="material-icons prefix white-text">assignment</i>
+                        <label for="title">Title</label>
+                        <input type="text" id="tit">
+                    </div>
+                    <div class="input-field">
+                        <i class="material-icons prefix white-text">room</i>
+                        <label for="Location">Location</label>
+                        <input type="text" id="location">
+                    </div>
+                    <div class="input-field">
+                        <i class="material-icons prefix white-text">subtitles</i>
+                        <label for="description">Description</label>
+                        <input type="text" id="description">
+                    </div>
+                    <div class="input-field center-align">
+                        <button onclick="validate()" class="btn large purple darken-4 hoverable waves-effect">Add New Todo</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--JavaScript at end-->
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
